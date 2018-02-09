@@ -1,0 +1,165 @@
+
+/* ******************** GERAL *************************/
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+	min-width: 1200px;
+	position: relative;
+	margin: 0 0 40px;
+	padding: 0;
+}
+
+html, body, .main_page { height: 100%; }
+body > .main_page { height: auto; min-height: 100%; }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+a:link    { text-decoration: none;	}
+a:active  { text-decoration: none; }
+a:visited { text-decoration: none; }
+.menu_header li a:hover   { text-decoration: none; background-color: #467509; }
+a:focus   { text-decoration: none; }
+
+p{
+	font-family: "Verdana", Geneva, sans-serif;
+}
+
+label{
+	font-family: "Verdana", Geneva, sans-serif;
+	font-size: 15px;
+}
+
+/* ********************* HEADER *********************/
+
+.logo_header a:hover{
+	text-decoration:underline;
+}
+.main_header{
+	background-color: #69ad0d;
+	width: 100%;
+	height: 20%;
+	min-height: 150px;
+	max-height: 170px;
+    margin: 0%;
+}
+
+/*.clearfix:after {
+    display:block;
+    clear:both;
+}*/
+
+.menu_header li {
+    margin:0px;
+    list-style:none;
+}
+ 
+.menu_header a {
+    transition:all linear 0.15s;
+    color:white;
+}
+ 
+.menu_header li:hover > a, .menu_header .current-item > a {
+    text-decoration:none;
+    color:white;
+}
+ 
+ 
+/*----- Top Level -----*/
+
+.menu_header > ul > li {
+    display:inline-block;
+    position:relative;
+}
+
+.menu_header > div> li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:30px;
+	text-align: inherit;
+}
+
+.menu_header > ul > li > a {
+    padding:10px 20px;
+    display:inline-block;
+}
+ 
+.menu_header > ul > li:hover > a, .menu_header > ul > .current-item > a {
+    background: #467509;
+}
+ 
+
+.menu_header{
+	float: right;
+	width: 70%;
+	margin-right: 100px;
+}
+.menu_header ul {
+    list-style-type: none;
+    margin: 0;
+	float: right;
+}
+
+.menu_header li {
+    display: inline;
+	float: left;
+	font-family: "Verdana", Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	text-decoration: none;
+	color: white;
+}
+/*----- Bottom Level -----*/
+.menu_header li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:100%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+	border: 0.5px solid green;
+    background:#69ad0d;
+	/*text-align: center;*/
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    margin: 0;
+    display:block;
+	padding: 8px;
+}
+ 
+.sub-menu li:hover, .sub-menu .current-item a{
+    /*background: #467509 ;*/
+	text-decoration: underline;
+}
+
+.ola{
+	text-align: right;
+	color: white;
+	margin-left: 100px;
+	margin-right: 25px;
+}
+
+.weather_widget{
+	width:100px;
+	position:absolute;
+	margin-top:-167px;
+	margin-left:240px
+}

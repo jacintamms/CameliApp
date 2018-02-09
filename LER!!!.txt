@@ -1,0 +1,36 @@
+FALTA FAZER (por ordem de importância)
+
+
+1) Página inicial
+-> Pôr alarmes + urgentes e eventos + próximos/ prioridade mais alta a aparecer na parte branca
+(ROQUE)
+--
+
+2) Site em geral
+-> Verificação JS de todos os forms
+(JACI) 
+-> Avisos quando não há info da BD (ex. quando não há eventos por uma linha: "Não tem nada na sua agenda. Acrescentar"
+(RUI)
+-> Login às vezes não funciona -> dá merda no header e na mudança de password
+
+--
+
+2) Estatística
+-> Eixos estão com resolução ridícula
+(RUI)
+-> Pôr tabela debaixo do gráfico com máx, min e avg só do sensor escolhido bem como a sua casta
+(RUI)
+-> Arranjar de forma a que carregando num sensor na página zona1.php apareça o seu gráfico de temp/humd/plvsd
+(RUI)
+-> aviso para poucos dados
+(RUI)
+--
+
+3) Integrar print de pdf que o Roque fez
+(JACINTA)
+--
+
+4) Tentar pôr o Widget Weather a funcionar
+(ROQUE)
+--
+

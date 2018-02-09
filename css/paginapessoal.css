@@ -1,0 +1,135 @@
+hr {
+    height: 5px;
+    width: 100%;
+    color: black ;
+    background-color: black ;
+}
+
+.User{
+    position: absolute;
+    left: calc(22%);
+    top: calc(22%);
+    z-index: 2;
+}
+
+.Welcome{
+    position: absolute;
+	left: calc(35%);
+    top: calc(25%);
+    z-index: 2;
+    font-size: 45px;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.Info{
+    position: absolute;
+	left: calc(40% );
+    top: calc(42%);
+    z-index: 2;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.etiqueta{
+    position: absolute;
+	left: calc(130%);
+    top: calc(5% );
+    z-index: 2;
+}
+
+.resultado{
+    position: absolute;
+	left: 140px;
+    top: calc(5% );
+    z-index: 2;
+    font-weight: normal;
+    width:400px;
+}
+
+.etiqueta1{
+    position: absolute;
+	left: calc(130%);
+    top: calc(43%);
+    z-index: 2;
+}
+
+.resultado1{
+    position: absolute;
+	left: 140px;
+    top: calc(43%);
+    z-index: 2;
+    font-weight: normal;
+    width:400px;
+}
+
+.etiqueta2{
+    position: absolute;
+	left: calc(130%);
+    top: calc(80%);
+    z-index: 2;
+}
+
+.resultado2{
+    position: absolute;
+	left: 180px;
+    top: calc(80%);
+    z-index: 2;
+    font-weight: normal;
+    width:400px;
+}
+
+/****** Relogio ****/
+
+.clock{
+    position: absolute;
+	left: 600px;
+    top: calc(62%);
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Verdana", Geneva, sans-serif;
+}
+
+
+.wrapper-clockdate {
+
+padding:10px;
+max-width:250px;
+width:100%;
+text-align:center;
+-webkit-border-radius:3px;
+border-radius:1px;
+margin:0 auto;
+margin-top:15%;
+-webkit-box-shadow:inset 0px 0px 8px black;
+box-shadow:inset 0px 0px 8px black;
+-webkit-border-radius:5px;
+border-radius:5px;
+background-color:black;
+}
+
+#clock-large {
+background-color:black;
+font-family: 'Orbitron', sans-serif;
+font-size:40px;
+text-shadow:0px 0px 1px white;
+color:white;
+}
+
+
+#clock-large span { 
+    color:white; 
+    text-shadow:0px 0px 1px black;
+    font-size:15px;
+    position:relative;
+    top:-25px;
+    left:-10px; 
+    }
+
+
+
+.credit { position:fixed; bottom:10px;right:10px; color:white; font-size:13px;font-family:arial,sans-serif; }
+.credit a { text-decoration:none; color:black; font-weight:bold; }
+.credit a:hover { border-bottom:1px dotted white; }

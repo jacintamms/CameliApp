@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title> CameliApp </title>
+		<meta charset="UTF-8">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="../javascript/smoothscroll.js"></script>
+		<script src="../javascript/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+
+	</head>
+
+	<body>
+		<?php 
+			include '../config/init.php'; 
+			/*echo $_SESSION['name'];
+			echo $_SESSION['autenticado'];*/
+		?>
+		<header class = "main_header">
+			<!-- ***<"logo_header">*** -->
+			<img width="115px" height="165px" src="..\images\VinhaLogo.png" style="margin-left:82px"></img>			
+			<div class="weather_widget">
+						<a href="https://www.accuweather.com/pt/pt/vila-nova-de-famalicao/272367/weather-forecast/272367" class="aw-widget-legal">
+						</a>
+						<div id="awcc1484838882027" class="aw-widget-current"  data-locationkey="1-272367_1_AL" data-unit="c" data-language="pt" data-useip="false" data-uid="awcc1484838882027">
+						</div>
+						<script type="text/javascript" src="http://oap.accuweather.com/launch.js">
+						</script>
+			</div>	
+				<div class = "menu_header">
+					<div class = "logo_header">	
+						<p class="ola">
+							Bem-vindo <b><a href="pessoal.php"><?php echo $_SESSION['nomeUser']?></a></b> 
+							<br></br>
+						
+							<a href = "..\actions\accaologout.php">Logout</a>
+						</p>
+					</div>
+					<ul>
+						<li><a href="maps.php">CameliApp</a></li>
+						<li> <a href="pessoal.php"> Utilizadores </a>
+							<ul class="sub-menu">
+								<?php if ($_SESSION['autenticado'] == 2): ?>
+									<li><a class="smoothscroll" href="OperadorPage.php#adicionar">Adicionar </a></li>
+									<li><a class="smoothscroll" href="listaUsers.php">Ver Users/ Eliminar</a></li>
+								<?php endif; ?>
+								<li><a href="../actions/accaologout.php">Logout</a></li>
+							</ul>
+						</li>
+						<li> <a href="historyAlarms.php"> Alarmes      </a>
+							<ul class="sub-menu">
+								<?php if ($_SESSION['autenticado'] == 2): ?>
+									<li><a class="smoothscroll" href="Defalarmes.php#alarme">Adicionar</a></li>
+									<li><a class="smoothscroll" href="Defalarmes.php#editar">Editar</a></li>
+								<?php endif; ?>
+								<li><a class="smoothscroll" href="historyAlarms.php">Histórico</a></li>
+							</ul>
+						</li>
+						<li> <a href="estatistica_avancado.php"> Estatística  </a>
+							<!--<ul class="sub-menu">
+									<li><a class="smoothscroll" href="estatistica.php">Simples</a></li>
+									<li><a class="smoothscroll" href="estatistica_avancado.php">Avançado</a></li>
+							</ul>-->
+						</li>
+						<li> <a href="dashboard.php"> Agenda       </a>
+							<ul class="sub-menu">
+								<li><a class="smoothscroll" href="dashboard.php#evento">Adicionar Evento</a></li>
+								<li><a class="smoothscroll" href="dashboard.php#listafutura">Lista de Eventos</a></li>
+								<li><a class="smoothscroll" href="dashboard.php#listapassada">Histórico Eventos</a></li>
+							</ul>
+						</li>
+					</ul>
+				
+				</div>
+		</header>
+	</body>
+</html>

@@ -1,0 +1,408 @@
+
+
+/****************************** PAGE **************************/
+
+.main_page{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 40px;
+	min-height: 100%;
+
+}
+
+.main_page2{
+	margin-left: 100px;
+	margin-right: 100px;
+    max-width: 100%;
+
+}
+
+/*.main_page_title*/ h1{
+	font-size: 40px;
+	font-family: "Verdana", Geneva, sans-serif;
+}
+
+h2{
+	font-size: 30px;
+	font-family: "Verdana", Geneva, sans-serif;
+}
+
+
+.new_alarm h3{font-family: "Verdana", Geneva, sans-serif;}
+.edit_alarm h3{font-family: "Verdana", Geneva, sans-serif;}
+.display_alarm h3{font-family: "Verdana", Geneva, sans-serif;}
+
+/*****Adicionada para parte dos eventos******/
+.new_event h3{font-family: "Verdana", Geneva, sans-serif;}
+.event_list h3{font-family: "Verdana", Geneva, sans-serif;}
+/*******************************************/
+
+
+
+input[type="checkbox"]{
+    vertical-align: baseline;
+	float: right;
+}
+/***NEEEEEWWWWW****/
+input[type="radio"]{
+    vertical-align: baseline;
+	float: right;
+}
+/*******************/
+input[type="number"]{
+    vertical-align: baseline;
+	display: inline-block;
+	width: 40%;
+	float: right;
+}
+
+input[type="submit"]{
+	float: right;
+	margin-bottom: 20px;
+}
+
+nav{
+	float: left;
+	max-width: 20%;
+}
+
+select{
+	width: 100%;
+}
+
+article{
+	height: 100%;
+	width: 75%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+
+#chart_div{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+#graf_div{
+	height: 50%;
+	width: 100%;
+	float: center;
+}
+
+/****************************MAPA *******************************/
+.weather{
+	position:absolute;
+	height:auto;
+	width:50%; 
+	float:left;
+	margin-right:60%;
+	background-color: white;
+}
+.Alarmes_Agenda{
+	background-color: #69ad0d ;
+	width: 100%;
+}
+.Alarmes_Agenda table{
+    font-family: "Verdana", Geneva, sans-serif;
+	table-layout:fixed;
+    background-color: #69ad0d ;
+}
+.Alarmes_Agenda th:nth-child(1) {
+	
+    width:30%;
+	font-size: 20px;	
+    text-align: left;	
+}
+.Alarmes_Agenda th:nth-child(2) {
+
+    width:70%;
+	font-size: 20px;	
+    text-align: left;	
+}
+.Alarmes_Tit table{
+	font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	display: inline-block; 
+	float: left;		
+}
+
+.Agenda_Tit table{
+	font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	display: inline-block; 
+}
+
+.Alarmes_Tit th {	
+	font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+	padding-left:6px;
+	padding-right:6px;	
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.Agenda_Tit th {	
+	font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+	padding-left:6px;
+	padding-right:6px;	
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.Alarmes table{
+	font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	display: inline-block; 
+	float: left;		
+}
+
+.Alarmes td {
+	height:100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+	font-size: 12px;
+	color: black;
+}
+.Alarmes tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+	font-size: 12px;
+	color: black;
+}
+
+.Alarmes tr:nth-child(odd){background-color: #f2f2f2;}
+.Alarmes tr:nth-child(2n+2){background-color: white;}
+
+.Alarmes th {	
+	border: 1px solid #ddd;
+	font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+	padding-left:6px;
+	padding-right:6px;	
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.Agenda table{
+	font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	display: inline-block; 
+}
+.Agenda td {
+    border: 1px solid #ddd;
+    padding: 8px;
+	font-size: 12px;
+	color: black;
+	width: 100%;
+}
+
+.Agenda tr:nth-child(odd){width: 100%;background-color: #f2f2f2;}
+.Agenda tr:nth-child(2n+2){background-color: white;}
+
+.Agenda th {
+	border: 1px solid #ddd;
+	font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+	padding-left:6px;
+	padding-right:6px;	
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+.Agenda1 a:link {
+	font-size: 20px;
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.Agenda1 a {
+	color: black;
+}
+
+#map_div{
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+#map{
+
+	height: 80%;
+	width: 45%;
+    margin-left: 0;
+}
+
+/****************************GRAFICO *******************************/
+
+.text_for_div{
+	text-align: center;
+	font-size: 30px;
+	color: #778899;
+}
+
+/****************************TABELA DE ALARMES PÁGINA PRINCIPAL**************************/
+.display_alarm table{
+    font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 80px;
+}
+
+.display_alarm td, .display_alarm th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.display_alarm tr:nth-child(even){background-color: #f2f2f2;}
+
+.display_alarm tr:hover {background-color: #ddd;}
+
+.display_alarm th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.display_alarm a {
+	color: black;
+}
+
+/****************************TABELA DE ALARMES**************************/
+.edit_alarm table{
+    font-family: "Verdana", Geneva, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 80px;
+}
+
+.edit_alarm td, .edit_alarm th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.edit_alarm tr:nth-child(even){background-color: #f2f2f2;}
+
+.edit_alarm tr:hover {background-color: #ddd;}
+
+.edit_alarm th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #69ad0d ;
+    color: white;
+}
+
+.edit_alarm a {
+	color: black;
+}
+
+/**********************FORM ADICIONAR ALARME ***********************/
+.search{
+	margin-bottom: 50px;
+}
+
+.search input[type="submit"]{
+	width: 200px;
+	font-size: 20px;
+	display: table-cell;
+}
+
+.search input[type="button"]{
+	width: 200px;
+	font-size: 20px;
+	display: table-cell;
+	float: right; 
+	margin-top: 10px;
+}
+
+.search label{
+	display: table-cell;
+	padding: 20px;
+	font-family: "Verdana", Geneva, sans-serif;
+}
+
+.search form{
+	display: table;
+}
+.search p{
+	display: table-row;
+}
+
+.some_buttons{ 
+	margin-top: 10px;
+	text-align: right;
+}
+.some_buttons input[type="button"]{
+	width: 200px;
+	font-size: 20px;
+}
+/************************* FOOTER ************************************/
+
+.main_footer{
+	width: 100%;
+	background-color: #69ad0d;
+	text-align: center;
+	/*height: 40px;
+	margin: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	position: absolute;*/
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
+}
+
+.main_footer p{
+	margin: 5px;
+	color: white;
+	font-size: 10px;
+}
+
+/*_____________________________*/
+
+.user{
+	width: 350px;
+	float: left;
+}
+
+.other_info{
+	height:200px;
+	font-size: 20px;
+}
+
+#pagination{
+	margin-bottom: 70px;
+	text-align: center;
+	color: black;
+}
+
+.fa{
+	color: black;
+}
+
+.fa a{
+	color: black;
+}
+#pagination a{
+	color: black;
+}
+
